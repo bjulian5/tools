@@ -15,10 +15,10 @@ import (
 	"go/constant"
 	"go/token"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/bjulian5/tools/go/analysis"
+	"github.com/bjulian5/tools/go/analysis/passes/inspect"
+	"github.com/bjulian5/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/bjulian5/tools/go/ast/inspector"
 )
 
 const Doc = "check for shifts that equal or exceed the width of the integer"

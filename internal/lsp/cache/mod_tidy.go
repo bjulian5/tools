@@ -15,13 +15,13 @@ import (
 	"strings"
 
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/debug/tag"
+	"github.com/bjulian5/tools/internal/lsp/diff"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/memoize"
+	"github.com/bjulian5/tools/internal/span"
 )
 
 type modTidyKey struct {
@@ -239,10 +239,10 @@ func modTidyErrors(ctx context.Context, snapshot source.Snapshot, pm *source.Par
 			// Example:
 			//
 			// import (
-			//   "golang.org/x/tools/go/expect"
-			//   "golang.org/x/tools/go/packages"
+			//   "github.com/bjulian5/tools/go/expect"
+			//   "github.com/bjulian5/tools/go/packages"
 			// )
-			// They both are related to the same module: "golang.org/x/tools".
+			// They both are related to the same module: "github.com/bjulian5/tools".
 			var match string
 			for _, req := range ideal.Require {
 				if strings.HasPrefix(imp.PkgPath(), req.Mod.Path) && len(req.Mod.Path) > len(match) {

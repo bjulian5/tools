@@ -7,7 +7,7 @@ package cache
 import (
 	"io"
 
-	"golang.org/x/tools/internal/event/label"
+	"github.com/bjulian5/tools/internal/event/label"
 )
 
 var (

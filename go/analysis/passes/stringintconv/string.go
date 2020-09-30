@@ -11,9 +11,9 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/bjulian5/tools/go/analysis"
+	"github.com/bjulian5/tools/go/analysis/passes/inspect"
+	"github.com/bjulian5/tools/go/ast/inspector"
 )
 
 const Doc = `check for string(int) conversions

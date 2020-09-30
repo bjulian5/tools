@@ -17,8 +17,8 @@ import (
 	"os"
 	"strconv"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/bjulian5/tools/go/analysis"
+	"github.com/bjulian5/tools/go/analysis/passes/internal/analysisutil"
 )
 
 const debug = false

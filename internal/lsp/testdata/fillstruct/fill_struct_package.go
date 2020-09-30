@@ -3,7 +3,7 @@ package fillstruct
 import (
 	h2 "net/http"
 
-	"golang.org/x/tools/internal/lsp/fillstruct/data"
+	"github.com/bjulian5/tools/internal/lsp/fillstruct/data"
 )
 
 func unexported() {

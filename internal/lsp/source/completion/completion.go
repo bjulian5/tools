@@ -22,13 +22,13 @@ import (
 	"time"
 	"unicode"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/fuzzy"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/go/ast/astutil"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/imports"
+	"github.com/bjulian5/tools/internal/lsp/fuzzy"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/lsp/snippet"
+	"github.com/bjulian5/tools/internal/lsp/source"
 	errors "golang.org/x/xerrors"
 )
 

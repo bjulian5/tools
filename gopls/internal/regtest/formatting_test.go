@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/tests"
+	"github.com/bjulian5/tools/internal/lsp/tests"
 )
 
 const unformattedProgram = `

@@ -13,10 +13,10 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/internal/facts"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/bjulian5/tools/go/analysis/analysistest"
+	"github.com/bjulian5/tools/go/analysis/internal/facts"
+	"github.com/bjulian5/tools/go/packages"
+	"github.com/bjulian5/tools/internal/testenv"
 )
 
 type myFact struct {

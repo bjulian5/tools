@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/tools/benchmark/parse"
+	"github.com/bjulian5/tools/benchmark/parse"
 )
 
 func TestSelectBest(t *testing.T) {

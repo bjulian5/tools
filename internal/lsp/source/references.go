@@ -11,9 +11,9 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/span"
 	"golang.org/x/xerrors"
 )
 

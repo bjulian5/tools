@@ -11,10 +11,10 @@ import (
 	"go/ast"
 	"go/format"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/analysisinternal"
+	"github.com/bjulian5/tools/go/analysis"
+	"github.com/bjulian5/tools/go/analysis/passes/inspect"
+	"github.com/bjulian5/tools/go/ast/inspector"
+	"github.com/bjulian5/tools/internal/analysisinternal"
 )
 
 const Doc = `suggested fixes for "no result values expected"

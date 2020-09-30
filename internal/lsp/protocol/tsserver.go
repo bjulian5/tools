@@ -11,7 +11,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/bjulian5/tools/internal/jsonrpc2"
 	errors "golang.org/x/xerrors"
 )
 

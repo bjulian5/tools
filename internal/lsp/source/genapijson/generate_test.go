@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/bjulian5/tools/internal/testenv"
 )
 
 func TestGenerate(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"go/token"
 	"testing"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/go/expect"
+	"github.com/bjulian5/tools/go/packages/packagestest"
+	"github.com/bjulian5/tools/internal/span"
 )
 
 func TestExpect(t *testing.T) {

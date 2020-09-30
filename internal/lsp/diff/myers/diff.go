@@ -8,8 +8,8 @@ package myers
 import (
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/internal/lsp/diff"
+	"github.com/bjulian5/tools/internal/span"
 )
 
 // Sources:

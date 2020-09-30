@@ -8,10 +8,10 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/mod"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/mod"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/lsp/source"
 )
 
 func (s *Server) codeLens(ctx context.Context, params *protocol.CodeLensParams) ([]protocol.CodeLens, error) {

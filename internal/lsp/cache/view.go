@@ -24,14 +24,14 @@ import (
 
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/semver"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/keys"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/event/keys"
+	"github.com/bjulian5/tools/internal/gocommand"
+	"github.com/bjulian5/tools/internal/imports"
+	"github.com/bjulian5/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/memoize"
+	"github.com/bjulian5/tools/internal/span"
+	"github.com/bjulian5/tools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

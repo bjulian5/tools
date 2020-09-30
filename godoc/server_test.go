@@ -12,7 +12,7 @@ import (
 	"testing"
 	"text/template"
 
-	"golang.org/x/tools/godoc/vfs/mapfs"
+	"github.com/bjulian5/tools/godoc/vfs/mapfs"
 )
 
 // TestIgnoredGoFiles tests the scenario where a folder has no .go or .c files,

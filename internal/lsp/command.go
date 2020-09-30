@@ -13,11 +13,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/span"
+	"github.com/bjulian5/tools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

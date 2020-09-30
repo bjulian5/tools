@@ -1,4 +1,4 @@
-module golang.org/x/tools
+module github.com/bjulian5/tools
 
 go 1.12
 

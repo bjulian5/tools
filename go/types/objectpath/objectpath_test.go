@@ -14,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/gcexportdata"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/objectpath"
+	"github.com/bjulian5/tools/go/buildutil"
+	"github.com/bjulian5/tools/go/gcexportdata"
+	"github.com/bjulian5/tools/go/loader"
+	"github.com/bjulian5/tools/go/types/objectpath"
 )
 
 func TestPaths(t *testing.T) {

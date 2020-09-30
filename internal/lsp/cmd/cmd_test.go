@@ -12,10 +12,10 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/cmd"
-	cmdtest "golang.org/x/tools/internal/lsp/cmd/test"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/bjulian5/tools/internal/lsp/cmd"
+	cmdtest "github.com/bjulian5/tools/internal/lsp/cmd/test"
+	"github.com/bjulian5/tools/internal/lsp/tests"
+	"github.com/bjulian5/tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

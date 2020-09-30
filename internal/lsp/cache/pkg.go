@@ -9,8 +9,8 @@ import (
 	"go/types"
 
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

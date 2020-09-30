@@ -10,9 +10,9 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/bjulian5/tools/go/analysis"
+	"github.com/bjulian5/tools/go/analysis/passes/inspect"
+	"github.com/bjulian5/tools/go/ast/inspector"
 )
 
 // NOTE: Experimental. Not part of the vet suite.

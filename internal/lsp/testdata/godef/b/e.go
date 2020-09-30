@@ -3,7 +3,7 @@ package b
 import (
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/godef/a"
+	"github.com/bjulian5/tools/internal/lsp/godef/a"
 )
 
 func useThings() {

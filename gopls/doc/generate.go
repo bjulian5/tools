@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/lsp/source"
 )
 
 func main() {

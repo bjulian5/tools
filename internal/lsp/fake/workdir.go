@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

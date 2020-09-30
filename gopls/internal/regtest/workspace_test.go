@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
+	"github.com/bjulian5/tools/internal/lsp"
 )
 
 const workspaceProxy = `

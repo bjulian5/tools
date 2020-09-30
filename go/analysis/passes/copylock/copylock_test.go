@@ -7,8 +7,8 @@ package copylock_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/copylock"
+	"github.com/bjulian5/tools/go/analysis/analysistest"
+	"github.com/bjulian5/tools/go/analysis/passes/copylock"
 )
 
 func Test(t *testing.T) {

@@ -17,14 +17,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/gocommand"
+	"github.com/bjulian5/tools/internal/jsonrpc2"
+	"github.com/bjulian5/tools/internal/lsp"
+	"github.com/bjulian5/tools/internal/lsp/cache"
+	"github.com/bjulian5/tools/internal/lsp/debug"
+	"github.com/bjulian5/tools/internal/lsp/debug/tag"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
 	errors "golang.org/x/xerrors"
 )
 

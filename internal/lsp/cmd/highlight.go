@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"sort"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/span"
+	"github.com/bjulian5/tools/internal/tool"
 )
 
 // highlight implements the highlight verb for gopls.

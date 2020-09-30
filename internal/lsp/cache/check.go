@@ -16,13 +16,13 @@ import (
 	"sync"
 
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/bjulian5/tools/go/packages"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/debug/tag"
+	"github.com/bjulian5/tools/internal/lsp/source"
+	"github.com/bjulian5/tools/internal/memoize"
+	"github.com/bjulian5/tools/internal/span"
+	"github.com/bjulian5/tools/internal/typesinternal"
 	errors "golang.org/x/xerrors"
 )
 

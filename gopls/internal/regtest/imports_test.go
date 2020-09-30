@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/testenv"
 )
 
 // Tests golang/go#38815.

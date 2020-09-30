@@ -15,10 +15,10 @@ import (
 
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/go/analysis"
+	"github.com/bjulian5/tools/internal/imports"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

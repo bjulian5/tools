@@ -9,15 +9,15 @@
 //
 // See https://github.com/golang/tools/tree/master/gopls
 // for the most up-to-date information on the gopls status.
-package main // import "golang.org/x/tools/gopls"
+package main // import "github.com/bjulian5/tools/gopls"
 
 import (
 	"context"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/cmd"
-	"golang.org/x/tools/internal/tool"
+	"github.com/bjulian5/tools/gopls/internal/hooks"
+	"github.com/bjulian5/tools/internal/lsp/cmd"
+	"github.com/bjulian5/tools/internal/tool"
 )
 
 func main() {

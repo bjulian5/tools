@@ -7,9 +7,9 @@ package regtest
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/lsp"
+	"github.com/bjulian5/tools/internal/lsp/fake"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
 )
 
 func TestEditFile(t *testing.T) {

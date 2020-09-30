@@ -12,11 +12,11 @@ import (
 	"go/types"
 	"path/filepath"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/go/ast/astutil"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/debug/tag"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

@@ -75,10 +75,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/bjulian5/tools/go/expect"
+	"github.com/bjulian5/tools/go/packages"
+	"github.com/bjulian5/tools/internal/span"
+	"github.com/bjulian5/tools/internal/testenv"
 )
 
 var (

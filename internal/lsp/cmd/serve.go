@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/internal/fakenet"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/tool"
+	"github.com/bjulian5/tools/internal/fakenet"
+	"github.com/bjulian5/tools/internal/jsonrpc2"
+	"github.com/bjulian5/tools/internal/lsp/cache"
+	"github.com/bjulian5/tools/internal/lsp/debug"
+	"github.com/bjulian5/tools/internal/lsp/lsprpc"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/tool"
 	errors "golang.org/x/xerrors"
 )
 

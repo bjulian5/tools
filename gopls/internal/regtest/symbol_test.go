@@ -7,7 +7,7 @@ package regtest
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
 )
 
 const symbolSetup = `

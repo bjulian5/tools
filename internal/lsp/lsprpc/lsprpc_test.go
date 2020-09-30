@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/jsonrpc2/servertest"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/jsonrpc2"
+	"github.com/bjulian5/tools/internal/jsonrpc2/servertest"
+	"github.com/bjulian5/tools/internal/lsp/cache"
+	"github.com/bjulian5/tools/internal/lsp/debug"
+	"github.com/bjulian5/tools/internal/lsp/fake"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/testenv"
 )
 
 type fakeClient struct {

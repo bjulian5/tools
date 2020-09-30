@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/span"
 )
 
 type LensFunc func(context.Context, Snapshot, FileHandle) ([]protocol.CodeLens, error)

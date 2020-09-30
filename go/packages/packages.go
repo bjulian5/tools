@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/go/gcexportdata"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/bjulian5/tools/go/gcexportdata"
+	"github.com/bjulian5/tools/internal/gocommand"
+	"github.com/bjulian5/tools/internal/packagesinternal"
+	"github.com/bjulian5/tools/internal/typesinternal"
 )
 
 // A LoadMode controls the amount of detail to return when loading.

@@ -14,9 +14,9 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/bjulian5/tools/internal/event"
+	"github.com/bjulian5/tools/internal/lsp/debug/tag"
+	"github.com/bjulian5/tools/internal/lsp/protocol"
 )
 
 // FormatType returns the detail and kind for a types.Type.

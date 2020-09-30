@@ -364,7 +364,7 @@ Previous        | N/A
 [godoc]: https://golang.org/cmd/godoc
 [gofmt]: https://golang.org/cmd/gofmt
 [gogetdoc]: https://github.com/zmb3/gogetdoc
-[goimports]: https://godoc.org/github.com/bjulian5/tools/cmd/goimports
+[goimports]: https://godoc.org/github.com/bjulian5/tools/cmd/goyextimports
 [gorename]: https://godoc.org/github.com/bjulian5/tools/cmd/gorename
 [goreturns]: https://github.com/sqs/goreturns
 [gotags]: https://github.com/jstemmer/gotags

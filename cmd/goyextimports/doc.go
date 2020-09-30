@@ -3,7 +3,7 @@
 Command goimports updates your Go import lines,
 adding missing ones and removing unreferenced ones.
 
-     $ go get github.com/bjulian5/tools/cmd/goimports
+     $ go get github.com/bjulian5/tools/cmd/goyextimports
 
 In addition to fixing imports, goimports also formats
 your code in the same style as gofmt so it can be used
@@ -35,9 +35,9 @@ working and see what goimports is doing.
 
 File bugs or feature requests at:
 
-    https://golang.org/issues/new?title=x/tools/cmd/goimports:+
+    https://golang.org/issues/new?title=x/tools/cmd/goyextimports:+
 
 Happy hacking!
 
 */
-package main // import "github.com/bjulian5/tools/cmd/goimports"
+package main // import "github.com/bjulian5/tools/cmd/goyextimports"
